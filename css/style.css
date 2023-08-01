@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f6f6f6;    
+}
+
+/* Geral */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header */
+#header {
+    margin-top: 10rem;
+}
+
+.header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+/* Seção 01 | Folheto */
+.container-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 3.2rem 2.4rem;
+    /* width: 32rem; */
+    /* border: 1px solid #0000006c; */
+}
+
+.box-1 {
+    background-color: rgb(248, 248, 93);
+}
+
+.box-2,
+.box-5 {
+    background-color: white;
+}
+
+.box-3 {
+    background-color: lightseagreen;
+}
+
+.box-4 {
+    background-color: lightpink;
+}
+
+footer .container {
+    background-color: darkgreen;
+    height: 5rem;
+}
+
+
+
+
+
